@@ -4,24 +4,7 @@
 		<Title>Cryptocol - Secure Chat Room</title>
 	</head>
 	
-	<!-- javascript libraries -->
-	<script src="javascript/ecc.js"></script>
-	<script language="JavaScript">
-		function do_init() {
-			var roomName = getParameterByName(roomName);
-			InitializeEllipticCurve(roomName);
-			console.log("init Elliptic Curves")
-		}
-		
-		function getParameterByName(name) {
-			name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
-			var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
-			results = regex.exec(location.search);
-			return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
-		}
-	</script>
-	
-	<body onLoad='do_init();'>
+	<body>
 		<h1>Cryptocol</h1>
 		<h3>**Under Construction**</h3>
 		<p>Check back soon</p>
