@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<Title>Cryptocol - Home</title>
+	</head>
+	
+	<!-- javascript libraries -->
+	<script src="javascript/ecc.js"></script>
+	<script language="JavaScript">
+		//Generate key values on this page so they can be reused for multiple chat applications
+		function do_init() {
+			console.log("init Elliptic Curves")
+			//Create Elliptic curve private and public keys
+			//send public key to server
+			//store private key for access by other scripts
+		}
+	</script>
+	
+	<body onLoad='do_init();'>
+		<div name="contacts" id="contacts">
+			List contacts here
+			<!-- Contact name in URL is temporary -->
+			<ul><a href="ChatRoom.html?contact=JohnDoe">john doe</a>
+		</div>
+	</body>
+</html>
